@@ -1,9 +1,3 @@
 img {
     width: 40%;
 }
-
-.square {
-    object-fit: cover;
-    width: 500px;
-    height: 500px;
-}
