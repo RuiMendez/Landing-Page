@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-.left {
-    margin-left: 150px;
-}
-
 .navigation {
     display: flex;
     padding: 0;
@@ -18,6 +14,11 @@
     display: flex;
     list-style: none;
     gap: 1em;
+}
+
+body {
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .hero {
