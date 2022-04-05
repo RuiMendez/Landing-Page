@@ -1,17 +1,37 @@
-img {
-    width: 40%;
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    margin-left: 150px;
 }
 
 .navigation {
     display: flex;
-    flex-direction: row;
+    padding: 0;
+    margin: 0;
     justify-content: space-between;
     align-items: baseline;
 }
 
 .links {
     display: flex;
-    margin: 0;
-    padding: 0;
     list-style: none;
+    gap: 1em;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.small-image img {
+    width: 200px;
+    height: 200px;
+}
+
+.hero .main-image img {
+    width: 550px;
+    height: 350px;
 }
