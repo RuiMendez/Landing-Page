@@ -150,14 +150,19 @@ figcaption {
 
 /*Sign-up Section*/
 
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 .sign-up .container {
     background-color: brown;
     display: flex;
     gap: 10em;
     justify-content: center;
     align-items: center;
-    margin-left: 250px;
-    margin-right: 250px;
+    /*margin-left: 250px;
+    margin-right: 250px;*/
     margin-top: 100px;
     margin-bottom: 100px;
     padding-top: 50px;
