@@ -175,3 +175,12 @@ figcaption {
     font-size: 18px;
     color: bisque;
 }
+
+
+/*Footer Section*/
+
+footer {
+    background-color: bisque;
+    text-align: center;
+    padding: 40px;
+}
