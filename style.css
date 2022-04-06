@@ -146,3 +146,32 @@ figcaption {
     font-weight: bold;
     font-size: large
 }
+
+
+/*Sign-up Section*/
+
+.sign-up .container {
+    background-color: brown;
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.strong {
+    font-size: 24px;
+    font-weight: bolder;
+    color: bisque;
+}
+
+.secondary {
+    font-size: 18px;
+    color: bisque;
+}
