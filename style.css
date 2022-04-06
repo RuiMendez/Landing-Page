@@ -100,11 +100,12 @@ button {
     background-color: brown;
     padding-left: 150px;
     padding-right: 150px;
-    margin: 0;
+    padding-top: 10px;
 }
 
 h2 {
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .card-container {
