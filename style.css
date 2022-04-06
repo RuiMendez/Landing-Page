@@ -5,6 +5,7 @@
 body {
     padding-left: 150px;
     padding-right: 150px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -37,9 +38,42 @@ a {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 2em;
+}
+
+.hero .left,
+.hero .right {
     flex: 1;
+}
+
+.hero .tittle {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .secondary {
+    font-size: 18px;
+}
+
+.hero .right {
+    display: flex;
+}
+
+.hero .main-image img {
+    flex: 1;
+    object-fit: cover;
+    border-radius: 7px;
+    max-height: calc(235px + 1rem);
+}
+
+button {
+    font-size: 17px;
+    padding: 7px 1em;
+    width: 120px;
+    border-radius: 8px;
 }
 
 .small-image img {
@@ -48,6 +82,6 @@ a {
 }
 
 .hero .main-image img {
-    width: 550px;
-    height: 350px;
+    width: 500px;
+    height: 300px;
 }
